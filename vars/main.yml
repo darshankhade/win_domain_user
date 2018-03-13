@@ -1,0 +1,7 @@
+---
+user_info:
+  - {Name: james, FirstName: James, LastName: Jockey, Password: redhat@123, Email: james@ad1.437d.example.opentlc.comjob}
+  - {Name: bill, FirstName: Bill, LastName: Gates, Password: redhat@123, Email: bill@ad1.437d.example.opentlc.comjob}
+  - {Name: mickey, FirstName: Mickey, LastName: Mouse, Password: redhat@123, Email: mickey@ad1.437d.example.opentlc.comjob}
+  - {Name: donald, FirstName: Donald, LastName: Duck, Password: redhat@123, Email: donald@ad1.437d.example.opentlc.comjob}
+# vars file for win_domain_user

@@ -1,0 +1,12 @@
+---
+- name: Ensure user bob is present with address information
+  win_domain_user:
+    name: "{{item.Name}}"
+    firstname: "{{item.FirstName}}"
+    lastname: "{{item.LastName}}"
+    password: "{{item.Password}}"
+    email: "{{item.Email}}"
+    state: present
+  with_items:
+    - "{{ user_info }}" 
+# tasks file for win_domain_user
